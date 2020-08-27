@@ -1,0 +1,349 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LiveSearchScreen 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    placeholder="Please search here"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "borderColor": "gray",
+        "borderRadius": 10,
+        "borderWidth": 1,
+        "height": 40,
+        "margin": 20,
+        "textAlign": "center",
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <RCTScrollView
+    ListEmptyComponent={
+      <EmptyComponent
+        title="Please write above or"
+      />
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.5}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "black",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "paddingHorizontal": 20,
+              "paddingVertical": 10,
+            }
+          }
+        >
+          Please write above or
+        </Text>
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "backgroundColor": "#f77a55",
+              "borderRadius": 25,
+              "color": "#ffffff",
+              "fontSize": 20,
+              "opacity": 1,
+              "paddingHorizontal": 10,
+              "paddingVertical": 5,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "#f77a55",
+                "borderRadius": 25,
+                "color": "#ffffff",
+                "fontSize": 20,
+                "paddingHorizontal": 10,
+                "paddingVertical": 5,
+              }
+            }
+          >
+            Back To home
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
+
+exports[`LiveSearchScreen empty result  1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    placeholder="Please search here"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "borderColor": "gray",
+        "borderRadius": 10,
+        "borderWidth": 1,
+        "height": 40,
+        "margin": 20,
+        "textAlign": "center",
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <RCTScrollView
+    ListEmptyComponent={
+      <EmptyComponent
+        title="Please write above or"
+      />
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.5}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "black",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "paddingHorizontal": 20,
+              "paddingVertical": 10,
+            }
+          }
+        >
+          Please write above or
+        </Text>
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "backgroundColor": "#f77a55",
+              "borderRadius": 25,
+              "color": "#ffffff",
+              "fontSize": 20,
+              "opacity": 1,
+              "paddingHorizontal": 10,
+              "paddingVertical": 5,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "#f77a55",
+                "borderRadius": 25,
+                "color": "#ffffff",
+                "fontSize": 20,
+                "paddingHorizontal": 10,
+                "paddingVertical": 5,
+              }
+            }
+          >
+            Back To home
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
+
+exports[`LiveSearchScreen with result 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    placeholder="Please search here"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "borderColor": "gray",
+        "borderRadius": 10,
+        "borderWidth": 1,
+        "height": 40,
+        "margin": 20,
+        "textAlign": "center",
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <RCTScrollView
+    ListEmptyComponent={
+      <EmptyComponent
+        title="Please write above or"
+      />
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.5}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "black",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "paddingHorizontal": 20,
+              "paddingVertical": 10,
+            }
+          }
+        >
+          Please write above or
+        </Text>
+        <View
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignSelf": "center",
+              "backgroundColor": "#f77a55",
+              "borderRadius": 25,
+              "color": "#ffffff",
+              "fontSize": 20,
+              "opacity": 1,
+              "paddingHorizontal": 10,
+              "paddingVertical": 5,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "backgroundColor": "#f77a55",
+                "borderRadius": 25,
+                "color": "#ffffff",
+                "fontSize": 20,
+                "paddingHorizontal": 10,
+                "paddingVertical": 5,
+              }
+            }
+          >
+            Back To home
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
