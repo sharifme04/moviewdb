@@ -31,5 +31,5 @@ Please see the `screenshot` to see the view:
 6. If you have favourite selection available you will such screen
 ![screenshot](screenshots/6.jpg)
 
-7. If you go back to the home screen and navigate to the next screen by clicking list item. you will see another `bottom button` for `live search`. Initally it is empty but if you search movie you will see list of movie showing. If you go down you will see infinite scrolling.
+7. If you go back to the home screen and navigate to the next screen by clicking list item. you will see another `bottom button` for `live search`. Initally it is empty but if you search movie you will see list of movie showing. If you go down you will see infinite scrolling. if you click list item form live search it will take you details screen.
 ![screenshot](screenshots/7.jpg)   ![screenshot](screenshots/8.jpg)
